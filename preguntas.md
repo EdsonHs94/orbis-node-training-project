@@ -46,3 +46,7 @@
  ### ¿Para qué sirve ejecutar el comando bash al ejecutar una imagen?
 
  > Para ejecutar la linea de comandos del contenedor.
+
+ ### Ejecutar un comando dentro de un contenedor corriendo
+
+ > docker exec nifty_bhaskara ls /app
