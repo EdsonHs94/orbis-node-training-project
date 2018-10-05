@@ -1,8 +1,4 @@
- ### ¿Cuál es la diferencia entre docker ps y docker ps -a?
- 
- > Lista de contenedores activos y el otro la lista de contenedores activos y no activos.
- 
- #### ¿Qué importancia tiene los tags en un proyecto?
+  #### ¿Qué importancia tiene los tags en un proyecto?
  
  > Sirve para etiquetar la versión en la que se encuentra el proyecto.
 
@@ -38,3 +34,15 @@
  ### ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
 
  > Toma en cuenta la última versión.
+
+ ### ¿Cuál es la diferencia entre docker ps y docker ps -a?
+ 
+ > Lista de contenedores activos y el otro la lista de contenedores activos y no activos.
+ 
+ ### ¿Porqué es necesario crear un contenedor con esta bandera -it ? ¿Qué pasa si no le pongo -it?
+
+ > El -it sirve para el modo interactivo, sin eso el contenedor morira.
+
+ ### ¿Para qué sirve ejecutar el comando bash al ejecutar una imagen?
+
+ > Para ejecutar la linea de comandos del contenedor.
