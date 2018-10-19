@@ -1,13 +1,15 @@
 version: '3'
 services:
   webapp:
-    build:
-      context: ./
-    image: tsfran/orbis-training-docker/1.0.0
+    image: tsfran/orbis-training-docker:1.0.0
     volumes:
-      - '$PWD:/app'
+      - $PWD:/app
     working_dir: /app
     ports: 
-     - '1042:3030'
-     - '35729:35729'
-    command: npm start 
+      - 1042:3030
+      - 35729:35729
+    command: npm start
+
+  test:
+    image: node:10.10.0-slim
+    command: curl http://webapp:3030/

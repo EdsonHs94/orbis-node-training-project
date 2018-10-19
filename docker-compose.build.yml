@@ -1,0 +1,6 @@
+version: '2'
+services:
+  base:
+    image: tsfran/orbis-training-docker:1.0.0
+    build:
+      context: ./
